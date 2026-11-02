@@ -16,7 +16,7 @@ function Kartu({ t, besar }) {
     <article className={`panel overflow-hidden ${besar ? 'lg:col-span-7 lg:row-span-2' : 'lg:col-span-5'}`}>
       <Link href={`/kabar/${t.slug}`} className="group flex h-full flex-col">
         <div className={`relative border-b-[1.5px] border-tinta ${besar ? 'aspect-[4/3] lg:aspect-auto lg:min-h-[380px] lg:flex-1' : 'aspect-[16/8]'}`}>
-          <Image src={t.foto} alt={t.fotoAlt} fill sizes={besar ? '(min-width: 1024px) 56vw, 100vw' : '(min-width: 1024px) 40vw, 100vw'} className="object-cover" priority={besar} />
+          <Image src={t.foto} alt={t.fotoAlt} fill sizes={besar ? '(min-width: 1024px) 1040px, 100vw' : '(min-width: 1024px) 40vw, 100vw'} className="object-cover" priority={besar} />
         </div>
         <div className="p-5 sm:p-6">
           <p className="label-mono text-tinta-3">

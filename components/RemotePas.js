@@ -15,11 +15,13 @@ export default function RemotePas({ className = '' }) {
   const href = `/pilih-pk?p=${panjang}&l=${lebar}&m=${matahari ? 1 : 0}`;
 
   return (
-    <section aria-labelledby="judul-remote" className={`remote remote-biru embun embun-kanan gelap flex flex-col [--embun-ukuran:150px] ${className}`}>
-      <h2 id="judul-remote" className="text-[1.65rem] leading-[1.05] sm:text-[1.9rem]">
-        Berapa PK untuk ruanganmu?
-      </h2>
-      <p className="mt-2 text-[#cfe7f4]">Atur ukuran di remote ini. Hasilnya langsung muncul di layar.</p>
+    <section aria-labelledby="judul-remote" className={`remote remote-biru embun embun-kanan gelap flex flex-col justify-between [--embun-ukuran:150px] ${className}`}>
+      <div>
+        <h2 id="judul-remote" className="text-[1.65rem] leading-[1.05] sm:text-[1.9rem]">
+          Berapa PK untuk ruanganmu?
+        </h2>
+        <p className="mt-2 text-[#cfe7f4]">Atur ukuran di remote ini. Hasilnya langsung muncul di layar.</p>
+      </div>
 
       <div className="lcd mt-5">
         <p className="lcd-label">Luas ruangan</p>
@@ -41,23 +43,23 @@ export default function RemotePas({ className = '' }) {
         </button>
       </div>
 
-      <div className="lcd mt-5" role="status">
-        <p className="lcd-label">Saran awal</p>
-        <p className="digit-besar mt-1">{h.kelas ? h.kelas.label : '> 2,5 PK'}</p>
-        <p className="lcd-label mt-1">
-          {ribu(h.total)} BTU per jam dibutuhkan
-        </p>
+      <div className="mt-5">
+        <div className="lcd" role="status">
+          <p className="lcd-label">Saran awal</p>
+          <p className="digit-besar mt-1">{h.kelas ? h.kelas.label : '> 2,5 PK'}</p>
+          <p className="lcd-label mt-1">{ribu(h.total)} BTU per jam dibutuhkan</p>
+        </div>
+        <ol className="skala mt-3" aria-label="Kelas PK yang dijual">
+          {kelasPK.map((k, i) => (
+            <li key={k.label} aria-current={i === h.idx ? 'true' : undefined}>
+              {k.label.replace(' PK', '')}
+            </li>
+          ))}
+        </ol>
+        <p className="mt-3 text-sm text-[#cfe7f4]">Perkiraan kasar: luas dikali 500 BTU, ditambah 10 persen bila kena matahari.</p>
       </div>
-      <ol className="skala mt-3" aria-label="Kelas PK yang dijual">
-        {kelasPK.map((k, i) => (
-          <li key={k.label} aria-current={i === h.idx ? 'true' : undefined}>
-            {k.label.replace(' PK', '')}
-          </li>
-        ))}
-      </ol>
-      <p className="mt-3 text-sm text-[#cfe7f4]">Perkiraan kasar: luas dikali 500 BTU, ditambah 10 persen bila kena matahari.</p>
 
-      <div className="mt-auto pt-5">
+      <div className="pt-5">
         <Link href={href} className="tombol tombol-cyan w-full">
           Hitung lengkap
         </Link>

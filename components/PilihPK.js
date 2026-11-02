@@ -65,8 +65,21 @@ export default function PilihPK() {
   return (
     <div className="grid grid-cols-1 gap-5 lg:grid-cols-12">
       {/* Remote isian */}
-      <form className="remote remote-es lg:sticky lg:top-[88px] lg:col-span-5 lg:self-start" onSubmit={(e) => e.preventDefault()} aria-label="Data ruangan">
+      <form className="remote remote-es lg:col-span-5 lg:self-start lg:[@media(min-height:700px)]:sticky lg:[@media(min-height:700px)]:top-[88px]" onSubmit={(e) => e.preventDefault()} aria-label="Data ruangan">
         <h2 className="text-[1.7rem]">Isi data ruangan</h2>
+        {/* Di ponsel hasil ada di bawah formulir; layar kecil ini menampilkan saran terbaru sambil mengisi */}
+        <div className="lcd mt-4 flex items-end justify-between gap-3 lg:hidden" aria-hidden="true">
+          <div>
+            <p className="lcd-label">Saran sementara</p>
+            <p className="mono mt-1 text-[1.9rem] leading-none">{h.kelas ? h.kelas.label : '> 2,5 PK'}</p>
+          </div>
+          <p className="lcd-label text-right">{ribu(h.total)} BTU</p>
+        </div>
+        <p className="mt-2 lg:hidden">
+          <a href="#judul-hasil" className="tautan">
+            Lihat hitungan lengkap
+          </a>
+        </p>
         <div className="mt-5 space-y-4">
           <Stepper id="pk-panjang" label="Panjang" nilai={panjang} ubah={setPanjang} min={1} max={20} />
           <Stepper id="pk-lebar" label="Lebar" nilai={lebar} ubah={setLebar} min={1} max={20} />

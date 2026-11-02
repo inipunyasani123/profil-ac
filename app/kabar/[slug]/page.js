@@ -121,7 +121,7 @@ export default async function Tulisan({ params }) {
           ))}
         </div>
         <aside aria-label="Langkah berikutnya" className="lg:col-span-4">
-          <div className="remote remote-biru embun embun-kanan gelap lg:sticky lg:top-24">
+          <div className="remote remote-biru embun embun-kanan gelap lg:sticky lg:top-24 [--embun-ukuran:110px]">
             <h2 className="text-[1.6rem]">Hitung PK ruanganmu</h2>
             <p className="mt-2 text-[#cfe7f4]">Isi ukuran ruangan, lalu lihat hitungannya satu per satu.</p>
             <Link href="/pilih-pk" className="tombol tombol-cyan mt-5 w-full">

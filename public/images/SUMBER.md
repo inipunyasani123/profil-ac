@@ -1,8 +1,8 @@
 # Sumber gambar
 
-Semua foto berlisensi CC0 1.0 (domain publik). Foto Wikimedia Commons diambil lewat API Commons dengan ukuran thumb 1920 px, foto WordPress Photo Directory lewat REST API-nya. Semua foto dipotong seperlunya, saturasinya diturunkan sedikit, diberi lapisan biru es tipis (supaya serasi dengan palet situs), lalu dikonversi ke WebP. Tidak ada wajah yang dikenali dan tidak ada merek yang terbaca (satu kandidat foto unit luar berlabel merek dibuang). Sudut foto sudah diperiksa untuk watermark.
+Semua foto berlisensi CC0 1.0 (domain publik). Foto Wikimedia Commons diambil lewat API Commons dengan ukuran thumb 1920 px, foto WordPress Photo Directory lewat REST API-nya. Semua foto dipotong seperlunya, saturasinya diturunkan sedikit, diberi lapisan biru es tipis (supaya serasi dengan palet situs), lalu dikonversi ke WebP. Tidak ada wajah yang dikenali dan tidak ada merek yang terbaca (satu kandidat foto unit luar berlabel merek dibuang, begitu juga foto kunci pas bengkel karena merek perkakasnya terbaca). Sudut foto sudah diperiksa untuk watermark.
 
-Foto unit luar dan unit dalam bukan foto dari Makassar. Keduanya foto generik pendekatan, bukan unit yang dipakai PK Pas.
+Foto unit luar, unit dalam, dan unit di atap bukan foto dari Makassar. Ketiganya foto generik pendekatan, bukan unit yang dipakai PK Pas.
 
 | Berkas | Judul / keterangan asli | Pembuat | Sumber | Lisensi |
 | --- | --- | --- | --- | --- |
@@ -13,7 +13,7 @@ Foto unit luar dan unit dalam bukan foto dari Makassar. Keduanya foto generik pe
 | `ruang-tamu.webp` | A cozy living room setting featuring two upholstered striped sofas with wooden frames and a glass-top coffee table | Ghasali Muhammad Elba | [WordPress Photo Directory](https://wordpress.org/photos/photo/47469edc99/) | CC0 1.0 |
 | `kafe.webp` | Cafe interior with a long blue bench, small tables, light brown chairs, and abstract gold wall art on a white wall | Iyundhu Kennedy | [WordPress Photo Directory](https://wordpress.org/photos/photo/5386a30566/) | CC0 1.0 |
 | `embun-tiang.webp` | Frost covered fence post with clearly visible ice crystals, sky as a backdrop tinged with sunrise tones (foto kiasan untuk es di pipa AC) | Sadie-Michaela Harris | [WordPress Photo Directory](https://wordpress.org/photos/photo/27765965bc/) | CC0 1.0 |
-| `perkakas.webp` | Train Mechanic Wrenches And Tools (kunci pas tergantung di dinding bengkel) | Jennifer Bourn | [WordPress Photo Directory](https://wordpress.org/photos/photo/395634db9b/) | CC0 1.0 |
+| `unit-atap.webp` | Photo 27469e3ea0: A large air conditioning unit is situated on a sloped metal roof, with a clear blue sky in the background (unit luar AC putih di atap seng, dengan pipa tembaga dan selang; dipakai untuk layanan perbaikan dan halaman profil) | Dylan Espinoza Pereira | [WordPress Photo Directory](https://wordpress.org/photos/photo/27469e3ea0/) | CC0 1.0 |
 
 ## Ilustrasi dan motif buatan sendiri
 

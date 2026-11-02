@@ -61,8 +61,9 @@ export default function Header() {
         </button>
       </div>
 
-      <nav id="menu-utama" aria-label="Menu utama" hidden={!buka} className="absolute inset-x-3 top-[76px] lg:hidden">
-        <div className="remote remote-es !pt-12 !pb-3">
+      {buka && <button type="button" tabIndex={-1} aria-hidden="true" onClick={() => setBuka(false)} className="fixed inset-x-0 bottom-0 top-[68px] z-0 cursor-default bg-tinta/55 lg:hidden" />}
+      <nav id="menu-utama" aria-label="Menu utama" hidden={!buka} className="absolute inset-x-3 top-[76px] z-10 lg:hidden">
+        <div className="remote !pt-12 !pb-3">
           <ul>
             {navigasi.map((n) => (
               <li key={n.href}>

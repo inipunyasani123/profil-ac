@@ -82,7 +82,7 @@ export default function Kontak() {
           <section aria-labelledby="judul-area" className="panel panel-es overflow-hidden">
             <div className="relative border-b-[1.5px] border-tinta">
               <PetaMakassar className="block w-full" />
-              <span className="label-mono absolute left-3 top-3 text-tinta-2">Selat Makassar</span>
+              <span className="label-mono absolute left-3 top-3 max-w-[26%] text-tinta-2">Selat Makassar</span>
             </div>
             <div className="p-5 sm:p-6">
               <h2 id="judul-area" className="text-[1.5rem]">

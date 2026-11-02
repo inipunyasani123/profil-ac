@@ -32,7 +32,7 @@ export default function Profil() {
           <h2 id="judul-cerita">Cerita singkat</h2>
           <div className="mt-4 max-w-[60ch] space-y-4 text-lg text-tinta-2">
             <p>PK Pas adalah usaha servis AC kecil di {site.kota}. Kami mengerjakan AC dinding untuk rumah, toko, dan kantor kecil: cuci, tambah freon, bongkar-pasang, dan perbaikan.</p>
-            <p>Kami tidak mengandalkan janji besar. Yang kami tawarkan adalah cara kerja yang bisa kamu lihat sendiri: ruangan diukur, kerusakan dijelaskan, dan hasilnya ditunjukkan sebelum teknisi pulang.</p>
+            <p>Cara kerja kami bisa kamu lihat sendiri: ruangan diukur, kerusakan dijelaskan, dan hasilnya ditunjukkan sebelum teknisi pulang.</p>
             <p>AC sentral gedung besar dan mesin pendingin industri di luar bidang kami. Kalau kebutuhanmu ke sana, kami akan bilang terus terang.</p>
           </div>
         </section>
@@ -48,7 +48,8 @@ export default function Profil() {
 
         <section aria-labelledby="judul-alat" className="panel overflow-hidden lg:col-span-6">
           <div className="relative aspect-[16/9] border-b-[1.5px] border-tinta">
-            <Image src="/images/perkakas.webp" alt="Deretan kunci pas tergantung di dinding bengkel" fill sizes="(min-width: 1024px) 48vw, 100vw" className="object-cover" />
+            <Image src="/images/unit-atap.webp" alt="Unit luar AC berwarna putih di atas atap seng, dengan pipa tembaga dan selang hitam yang tersambung" fill sizes="(min-width: 1024px) 48vw, 100vw" className="object-cover object-[50%_55%]" />
+            <p className="label-mono absolute inset-x-0 bottom-0 bg-lcd px-3 py-2 text-lcd-teks">Unit luar di atap, tempat kerja sehari-hari.</p>
           </div>
           <div className="p-5 sm:p-8">
             <h2 id="judul-alat">Perlengkapan teknisi</h2>

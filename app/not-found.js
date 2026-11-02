@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { Aliran } from '@/components/Motif';
 
-export const metadata = { title: 'Halaman tidak ditemukan', robots: { index: false, follow: false } };
+export const metadata = { title: 'Halaman tidak ditemukan', alternates: { canonical: null }, robots: { index: false, follow: false } };
 
 export default function NotFound() {
   return (

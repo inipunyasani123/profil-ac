@@ -43,7 +43,7 @@ export default function Layanan() {
         {layanan.map((l, i) => (
           <section key={l.id} id={l.id} aria-labelledby={`${l.id}-judul`} className="panel scroll-mt-24 overflow-hidden lg:col-span-12 lg:grid lg:grid-cols-12">
             <figure className={`relative min-h-[230px] border-b-[1.5px] border-tinta lg:col-span-4 lg:min-h-full lg:border-b-0 ${i % 2 ? 'lg:order-last lg:border-l-[1.5px]' : 'lg:border-r-[1.5px]'}`}>
-              <Image src={l.foto} alt={l.fotoAlt} fill sizes="(min-width: 1024px) 30vw, 100vw" className="object-cover" />
+              <Image src={l.foto} alt={l.fotoAlt} fill sizes="(min-width: 1024px) 1040px, 100vw" className="object-cover" />
               <figcaption className="label-mono absolute inset-x-0 bottom-0 bg-lcd px-3 py-2 text-lcd-teks">{l.fotoKet}</figcaption>
             </figure>
             <div className="p-5 sm:p-8 lg:col-span-8 lg:p-10">

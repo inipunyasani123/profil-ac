@@ -49,7 +49,7 @@ export default function FormKontak() {
     <div>
       <form onSubmit={kirim} className="space-y-4">
         <Bidang id="k-nama" label="Nama">
-          <input id="k-nama" name="nama" required autoComplete="name" className="isian" placeholder="Nama panggilanmu" />
+          <input id="k-nama" name="nama" required pattern=".*\S.*" title="Isi namamu" autoComplete="name" className="isian" placeholder="Nama panggilanmu" />
         </Bidang>
         <Bidang id="k-butuh" label="Kebutuhan">
           <select id="k-butuh" name="kebutuhan" required className="isian" defaultValue="">

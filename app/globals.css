@@ -298,6 +298,15 @@
   .embun-kanan.embun-bawah::after {
     transform: scale(-1, -1);
   }
+  /* Di layar sempit teks hampir selebar kartu: embun dikecilkan dan dipucatkan supaya tidak menimpa bacaan */
+  @media (max-width: 639px) {
+    .embun::after {
+      background-size: min(var(--embun-ukuran, min(52%, 260px)), 130px) auto;
+      -webkit-mask-size: min(var(--embun-ukuran, min(52%, 260px)), 130px) auto;
+      mask-size: min(var(--embun-ukuran, min(52%, 260px)), 130px) auto;
+      opacity: 0.7;
+    }
+  }
   .aliran {
     overflow: hidden;
   }
@@ -750,6 +759,9 @@
   }
   .prosa td:nth-child(2) {
     font-family: var(--font-mono);
+  }
+  .prosa tbody th {
+    white-space: nowrap;
   }
   .tabel-gulir {
     overflow-x: auto;
