@@ -51,7 +51,7 @@ Build produksi: `npm run build` lalu `npm start`. Pemeriksaan kode: `npm run lin
 
 ## Kredit foto dan ilustrasi
 
-Foto berlisensi CC0 1.0; ilustrasi dan motif digambar sendiri. Daftar lengkap ada di [`public/images/SUMBER.md`](public/images/SUMBER.md).
+Foto berlisensi CC0 1.0 atau domain publik; ilustrasi dan motif digambar sendiri. Daftar lengkap ada di [`public/images/SUMBER.md`](public/images/SUMBER.md).
 
 ---
 

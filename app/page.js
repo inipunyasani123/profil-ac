@@ -46,9 +46,9 @@ export default function Beranda() {
         <figure className="panel relative min-h-[240px] lg:col-span-3 lg:col-start-1 lg:row-start-2">
           <Aliran className="pointer-events-none absolute -top-[52px] left-5 z-10 h-[62%] w-[calc(100%-2.5rem)] text-cyan" />
           <div className="absolute inset-0 overflow-hidden rounded-[12px]">
-            <Image src="/images/unit-dalam.webp" alt="Unit AC dinding terpasang miring di dekat lampu sorot" fill sizes="(min-width: 1024px) 600px, 100vw" className="object-cover object-[22%_18%]" priority />
+            <Image src="/images/unit-dalam.webp" alt="Unit dalam AC dinding berwarna putih terpasang di dinding, dengan penutup celah hembusan yang terbuka sedikit di bagian bawahnya" fill sizes="(min-width: 1024px) 600px, 100vw" className="object-cover object-[22%_18%]" priority />
           </div>
-          <figcaption className="label-mono absolute inset-x-0 bottom-0 rounded-b-[12px] bg-lcd px-3 py-2 text-lcd-teks">Unit dalam, tampak dari bawah</figcaption>
+          <figcaption className="label-mono absolute inset-x-0 bottom-0 rounded-b-[12px] bg-lcd px-3 py-2 text-lcd-teks">Unit dalam yang terpasang di dinding.</figcaption>
         </figure>
 
         {/* Remote hitung PK */}

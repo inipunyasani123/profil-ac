@@ -47,10 +47,12 @@ export default function Profil() {
         ))}
 
         <section aria-labelledby="judul-alat" className="panel overflow-hidden lg:col-span-6">
-          <div className="relative aspect-[16/9] border-b-[1.5px] border-tinta">
-            <Image src="/images/unit-atap.webp" alt="Unit luar AC berwarna putih di atas atap seng, dengan pipa tembaga dan selang hitam yang tersambung" fill sizes="(min-width: 1024px) 48vw, 100vw" className="object-cover object-[50%_55%]" />
-            <p className="label-mono absolute inset-x-0 bottom-0 bg-lcd px-3 py-2 text-lcd-teks">Unit luar di atap, tempat kerja sehari-hari.</p>
-          </div>
+          <figure className="border-b-[1.5px] border-tinta">
+            <div className="relative aspect-[16/9]">
+              <Image src="/images/perkakas-teknisi.svg" alt="Ilustrasi perkakas teknisi AC: manifold dengan dua pengukur dan tiga selang, pompa vakum, alat flare, pemotong pipa, dan gulungan pipa tembaga" fill sizes="(min-width: 1024px) 48vw, 100vw" className="object-cover" unoptimized />
+            </div>
+            <figcaption className="label-mono bg-lcd px-3 py-2 text-lcd-teks">Ilustrasi: perkakas servis AC.</figcaption>
+          </figure>
           <div className="p-5 sm:p-8">
             <h2 id="judul-alat">Perlengkapan teknisi</h2>
             <ul className="daftar-titik mt-3">
