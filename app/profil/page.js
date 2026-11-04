@@ -49,7 +49,7 @@ export default function Profil() {
         <section aria-labelledby="judul-alat" className="panel overflow-hidden lg:col-span-6">
           <figure className="border-b-[1.5px] border-tinta">
             <div className="relative aspect-[16/9]">
-              <Image src="/images/perkakas-teknisi.svg" alt="Ilustrasi perkakas teknisi AC: manifold dengan dua pengukur dan tiga selang, pompa vakum, alat flare, pemotong pipa, dan gulungan pipa tembaga" fill sizes="(min-width: 1024px) 48vw, 100vw" className="object-cover" unoptimized />
+              <Image src="/images/perkakas-teknisi.svg" alt="Ilustrasi perkakas teknisi AC: manifold dengan dua pengukur dan tiga selang, pompa vakum, alat pelebar ujung pipa, pemotong pipa, dan gulungan pipa tembaga" fill sizes="(min-width: 1024px) 48vw, 100vw" className="object-cover" unoptimized />
             </div>
             <figcaption className="label-mono bg-lcd px-3 py-2 text-lcd-teks">Ilustrasi: perkakas servis AC.</figcaption>
           </figure>

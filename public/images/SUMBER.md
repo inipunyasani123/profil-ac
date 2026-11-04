@@ -25,7 +25,7 @@ Tidak ada tokoh dengan wajah. Semua di bawah ini digambar sendiri untuk situs in
 | Berkas / lokasi | Isi | Pembuat | Lisensi |
 | --- | --- | --- | --- |
 | `public/images/manifold-freon.svg` | Manifold dua pengukur tekanan (biru dan merah) dengan tiga selang yang tersambung ke katup unit luar dan tabung freon; dipakai di layanan Tambah freon | Dibuat sendiri | Milik proyek |
-| `public/images/perkakas-teknisi.svg` | Perkakas servis AC: manifold dan selang, pompa vakum, alat flare, pemotong pipa, dan gulungan pipa tembaga; dipakai di halaman Profil | Dibuat sendiri | Milik proyek |
+| `public/images/perkakas-teknisi.svg` | Perkakas servis AC: manifold dan selang, pompa vakum, alat pelebar ujung pipa (flare), pemotong pipa, dan gulungan pipa tembaga; dipakai di halaman Profil | Dibuat sendiri | Milik proyek |
 | `public/motif/embun-terang.svg`, `public/motif/embun-gelap.svg` | Tetes embun dan ranting kristal es, dua varian warna (untuk latar gelap dan terang); dibangkitkan dengan skrip kecil dari bilangan acak tetap | Dibuat sendiri | Milik proyek |
 | `app/icon.svg`, `LogoPK` di `components/Motif.js` | Tanda merek: huruf P dan K dari garis, dengan garis angin | Dibuat sendiri | Milik proyek |
 | `Teknisi` di `components/Motif.js` | Teknisi tanpa wajah (helm, overall, alat ukur tekanan) di depan unit AC dinding | Dibuat sendiri | Milik proyek |
